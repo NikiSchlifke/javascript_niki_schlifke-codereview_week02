@@ -12,11 +12,14 @@ function init_game() {
         prompt_names();
     } else {
         document.title = title;
-        console.log(name_data);
+        console.log(name_data)
 
         players[0] = createPlayer(name_data[0]);
         players[1] = createPlayer(name_data[2]);
-
+        players = players.map(function(thatplayer) {
+        	thatplayer.name = 'Player named: ' + thatplayer.name;
+        	return thatplayer;
+        })
     }
     console.log(players);
 }
