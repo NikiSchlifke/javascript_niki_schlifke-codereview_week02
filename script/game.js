@@ -1,6 +1,53 @@
 // game.js
 
 
+is_turn = 0;
+// init.js
+
+function init_game() {
+    var title = prompt('Please enter the player names with vs in-between, seperated by space');
+    var name_data = title.split(' ');
+    if (name_data.length != 3 || name_data[1] != "vs") {
+        prompt_names();
+    } else {
+        document.title = title;
+        console.log(name_data);
+
+        players[0] = createPlayer(name_data[0]);
+        players[1] = createPlayer(name_data[2]);
+
+    }
+    console.log(players);
+}
+// players will start with health: 100 and their names set
+
+function createPlayer(name) {
+    return {
+        'name': name,
+        'health': 100,
+        'damage_done': 0,
+        "damage_taken": 0,
+        "moves": {
+            "attack": 0,
+            "block": 0,
+            "evade": 0
+        }
+    };
+}
+
+function next_turn()
+{
+	is_turn = Number(! is_turn);
+}
+
+
+function toogle_player_disable(player)
+{
+	var is_disabled = player.getElementsByTagName('button')[0].disabled;
+	player.getElementsByTagName('button')[0].disabled = !is_disabled;
+	player.getElementsByTagName('button')[1].disabled = !is_disabled;
+	player.getElementsByTagName('button')[2].disabled = !is_disabled;
+}
 
 
 function set_player_names() {
@@ -66,19 +113,24 @@ function turn_finish() {
     players[1].health -= players[1].damage_taken;
     player1.getElementsByClassName('health')[0].innerHTML = players[0].health;
     player2.getElementsByClassName('health')[0].innerHTML = players[1].health;
+    toogle_player_disable(player1);
+    toogle_player_disable(player2);
+    next_turn();
+
 }
 
 function attack(player_id, oppenent_id) {
     turn_start(player_id, oppenent_id);
-    players[player_id].damage_done = players[player_id].moves.attack;
-    players[player_id].damage_taken = players[oppenent_id].moves.attack;
+    players[player_id].damage_done = players[oppenent_id].moves.attack;
+    players[oppenent_id].damage_taken = players[player_id].moves.attack;
+    console.log(players[oppenent_id]);
     turn_finish();
 }
 
 function block(player_id, oppenent_id) {
     turn_start(player_id, oppenent_id);
     players[player_id].damage_done = 0;
-    players[player_id].damage_taken = players[oppenent_id].moves.attack - players[player_id].moves.block;
+    players[player_id].damage_taken = Math.abs(players[oppenent_id].moves.attack - players[player_id].moves.block);
     turn_finish();
 }
 

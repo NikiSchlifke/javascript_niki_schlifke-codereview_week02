@@ -21,7 +21,7 @@ function createPlayer(name) {
     return {
         'name': name,
         'health': 100,
-        'damage_taken': 0,
+        'damage_done': 0,
         "damage_taken": 0,
         "moves": {
             "attack": 0,
