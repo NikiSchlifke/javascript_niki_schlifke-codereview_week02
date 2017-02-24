@@ -1,0 +1,1160 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"nam",
+				"name_data"
+			],
+			[
+				"player_na",
+				"player_name_data"
+			],
+			[
+				"va",
+				"validate"
+			],
+			[
+				"pla",
+				"player_name_data"
+			],
+			[
+				"pa",
+				"player_names"
+			],
+			[
+				"ca",
+				"changeColor"
+			],
+			[
+				"ch",
+				"changeColor"
+			],
+			[
+				"b",
+				"backgroundString"
+			],
+			[
+				"ge",
+				"getRandom255"
+			],
+			[
+				"c",
+				"current_date"
+			],
+			[
+				"da",
+				"date"
+			],
+			[
+				"mi",
+				"minute"
+			],
+			[
+				"co",
+				"convertMinutes"
+			],
+			[
+				"re",
+				"remaining_minutes"
+			],
+			[
+				"h",
+				"hours"
+			],
+			[
+				"w",
+				"writer"
+			],
+			[
+				"inn",
+				"innerHTML"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"gra",
+				"grade_math"
+			],
+			[
+				"g",
+				"grade_average"
+			],
+			[
+				"a",
+				"appendChild"
+			],
+			[
+				"s",
+				"setAttribute"
+			],
+			[
+				"gr",
+				"grade_english"
+			],
+			[
+				"box",
+				"boxAreaAndVolume"
+			],
+			[
+				"v",
+				"volume"
+			],
+			[
+				"ar",
+				"area"
+			],
+			[
+				"br",
+				"brick"
+			],
+			[
+				"pr",
+				"printArea"
+			],
+			[
+				"de",
+				"degreesToRadians"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"i",
+				"inherit"
+			],
+			[
+				"se",
+				"sentence"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"fuct",
+				"functions"
+			],
+			[
+				"do",
+				"document"
+			],
+			[
+				"tem",
+				"temp_string"
+			],
+			[
+				"wit",
+				"write"
+			],
+			[
+				"fr",
+				"fruits"
+			],
+			[
+				"fur",
+				"fruit_string"
+			],
+			[
+				"frui",
+				"fruit_string"
+			],
+			[
+				"po",
+				"popped_value"
+			],
+			[
+				"d",
+				"document"
+			],
+			[
+				"fl",
+				"flex"
+			],
+			[
+				"broc",
+				"border-color"
+			],
+			[
+				"f",
+				"flex"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"n",
+				"nutrient--value\t factsheet.css"
+			],
+			[
+				"spa",
+				"space-between"
+			],
+			[
+				"ali",
+				"align-items"
+			],
+			[
+				"col",
+				"column"
+			],
+			[
+				"flex",
+				"flex-flow"
+			],
+			[
+				"fle",
+				"flex-end"
+			],
+			[
+				"in",
+				"inline-flex"
+			],
+			[
+				"jus",
+				"justify-content"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"just",
+				"text-justify"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"bol",
+				"bolder"
+			],
+			[
+				"border-s",
+				"border-style"
+			],
+			[
+				"transi",
+				"transition"
+			],
+			[
+				"sans",
+				"'Helvetica Neue', Helvetica, Arial, sans-serif"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"bac",
+				"background-position"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"inl",
+				"inline"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"textal",
+				"text-align"
+			],
+			[
+				"border",
+				"border-style"
+			],
+			[
+				"shado",
+				"box-shadow"
+			],
+			[
+				"st",
+				"styles"
+			],
+			[
+				"border-",
+				"border-style"
+			],
+			[
+				"m",
+				"margin-left"
+			],
+			[
+				"p",
+				"position"
+			],
+			[
+				"bo",
+				"bold"
+			],
+			[
+				"ov",
+				"overflow"
+			],
+			[
+				"ta",
+				"target\tAttr"
+			],
+			[
+				"right",
+				"navbar-right\t bootstrap.min.css"
+			],
+			[
+				"L",
+				"'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif"
+			],
+			[
+				"font-fa",
+				"font-family"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"fonts",
+				"font-size"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"fo",
+				"font-stretch"
+			],
+			[
+				"o",
+				"overline"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"u",
+				"underline"
+			],
+			[
+				"bor",
+				"border-color"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"bco",
+				"background-color"
+			],
+			[
+				"baco",
+				"background-color"
+			],
+			[
+				"borders",
+				"border-style"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"he",
+				"header\tTag"
+			],
+			[
+				"met",
+				"meta\tTag"
+			],
+			[
+				"html",
+				"html5\tSimple HTML5 Boilerplate"
+			],
+			[
+				"cha",
+				"charset\tAttr"
+			],
+			[
+				"la",
+				"lang\tAttr"
+			],
+			[
+				"l",
+				"lang\tAttr"
+			],
+			[
+				"al",
+				"alt\tAttr"
+			],
+			[
+				"me",
+				"meta\tTag"
+			],
+			[
+				"hue",
+				"hueDiscriminationData"
+			],
+			[
+				"to",
+				"toHSL"
+			],
+			[
+				"0x",
+				"0x1FFF"
+			],
+			[
+				"un",
+				"uint16_t"
+			],
+			[
+				"le",
+				"leftTriggerDuration"
+			],
+			[
+				"debounc",
+				"debounceAccumulator"
+			],
+			[
+				"lef",
+				"leftTriggerDuration"
+			],
+			[
+				"deb",
+				"debounceAccumulator"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 207,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "script/player_names.js",
+			"settings":
+			{
+				"buffer_size": 322,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "player_names.js"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 532.0,
+		"last_filter": "insta",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remv",
+				"Package Control: Remove Package"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"pretty",
+				"HTMLPrettify"
+			],
+			[
+				"lor",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"rett",
+				"HTMLPrettify"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"lorem",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"inten",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"intall",
+				"Package Control: Install Package"
+			],
+			[
+				"packge",
+				"Package Control: List Packages"
+			],
+			[
+				"bea",
+				"HTMLBeautify"
+			],
+			[
+				"markdownpr",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"be",
+				"HTMLBeautify"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"h",
+				"HTMLBeautify"
+			],
+			[
+				"commt",
+				"Git: Commit"
+			],
+			[
+				"comm",
+				"Git: Commit"
+			],
+			[
+				"add",
+				"Git: Add Current File"
+			],
+			[
+				"git",
+				"Git: Commit"
+			],
+			[
+				"gitco",
+				"Git: Commit"
+			],
+			[
+				"linter gu",
+				"SublimeLinter: Choose Gutter Theme"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"beat",
+				"HTMLBeautify"
+			],
+			[
+				"lo",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"packag",
+				"Package Control: List Packages"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Discover Packages"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"json",
+				"JSON Reindent: reindent file or selection"
+			],
+			[
+				"jso",
+				"JSON Reindent: reindent file or selection"
+			]
+		],
+		"width": 777.0
+	},
+	"console":
+	{
+		"height": 257.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/niki/codefactory/javascript_niki_schlifke-codereview_week02"
+	],
+	"file_history":
+	[
+		"/home/niki/codefactory/codefactory.wien_week_02/day09/exercises/error.html",
+		"/home/niki/codefactory/codefactory.wien_week_02/day09/exercises/captalize.js",
+		"/home/niki/codefactory/codefactory.wien_week_02/day07/exercises/bookmarks/index.html",
+		"/home/niki/codefactory/codefactory.wien_week_02/day07/exercises/bookmarks/links.css",
+		"/home/niki/codefactory/codefactory.wien_week_02/day07/debating.md",
+		"/home/niki/codefactory/codefactory.wien_week_02/day08/exercises/advanced.html",
+		"/home/niki/codefactory/codefactory.wien_week_02/day08/exercises/strings.html",
+		"/home/niki/codefactory/codefactory.wien_week_02/day08/exercises/index.html",
+		"/home/niki/codefactory/codefactory.wien_week_02/day08/exercises/intermediate.js",
+		"/home/niki/codefactory/codefactory.wien_week_02/day08/exercises/advanced.js",
+		"/home/niki/codefactory/codefactory.wien_week_02/da08/exercises/arrays.html",
+		"/home/niki/codefactory/codefactory.wien_week_02/da08/exercises/arrays.js",
+		"/home/niki/codefactory/codefactory.wien_week_02/day07/csslearn/flexbox.css",
+		"/home/niki/codefactory/codefactory.wien_week_02/day07/exercises/nutrition/factsheet.css",
+		"/home/niki/codefactory/codefactory.wien_week_02/day07/csslearn/flexbox.html",
+		"/home/niki/codefactory/codefactory.wien_week_02/day07/exercises/nutrition/nutrition.html",
+		"/home/niki/codefactory/codefactory.wien_week_02/day07/exercises/transitions/thumb.css",
+		"/home/niki/codefactory/codefactory.wien_week_02/day07/exercises/transitions/preview.css",
+		"/home/niki/codefactory/codefactory.wien_week_02/day07/exercises/transitions/links.css",
+		"/home/niki/codefactory/codefactory.wien_week_02/day07/exercises/transitions/links.html",
+		"/home/niki/codefactory/codefactory.wien_week_02/day07/csslearn/graphics.css",
+		"/home/niki/codefactory/codefactory.wien_week_02/day06/exercises/advanced/style/main.css",
+		"/home/niki/codefactory/codefactory.wien_week_02/day07/csslearn/graphics.html",
+		"/home/niki/codefactory/codefactory.wien_week_02/day06/exercises/advanced/index.html",
+		"/home/niki/codefactory/codefactory.wien_week_02/day06/exercises/advanced/html/dummy5.html",
+		"/home/niki/codefactory/codefactory.wien_week_02/day06/exercises/advanced/html/dummy4.html",
+		"/home/niki/codefactory/codefactory.wien_week_02/day06/exercises/advanced/html/dummy3.html",
+		"/home/niki/codefactory/codefactory.wien_week_02/day06/exercises/advanced/html/dummy2.html",
+		"/home/niki/codefactory/codefactory.wien_week_02/day06/exercises/advanced/html/info.html",
+		"/home/niki/codefactory/codefactory.wien_week_02/day06/exercises/advanced/html/dummy1.html",
+		"/home/niki/codefactory/codefactory.wien_week_02/day06/exercises/intermediate/style.css",
+		"/home/niki/codefactory/codefactory.wien_week_02/day06/exercises/intermediate/index.html",
+		"/home/niki/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
+		"/home/niki/codefactory/codefactory.wien_week_02/day06/exercises/style/recipes.css",
+		"/home/niki/codefactory/codefactory.wien_week_02/day06/exercises/recipes.html",
+		"/home/niki/codefactory/codefactory.wien_week_02/day06/exercises/style",
+		"/home/niki/codefactory/css_niki_schlifke-codereview_week01/style/top.css",
+		"/home/niki/codefactory/css_niki_schlifke-codereview_week01/style/side.css",
+		"/home/niki/codefactory/css_niki_schlifke-codereview_week01/style/nav.css",
+		"/home/niki/codefactory/css_niki_schlifke-codereview_week01/style/main.css",
+		"/home/niki/codefactory/css_niki_schlifke-codereview_week01/html/places.html",
+		"/home/niki/codefactory/css_niki_schlifke-codereview_week01/html/newsfeed.html",
+		"/home/niki/codefactory/css_niki_schlifke-codereview_week01/html/login.html",
+		"/home/niki/codefactory/css_niki_schlifke-codereview_week01/html/messages.html",
+		"/home/niki/codefactory/css_niki_schlifke-codereview_week01/index.html",
+		"/home/niki/codefactory/css_niki_schlifke-codereview_week01/contacts.html",
+		"/home/niki/codefactory/css_niki_schlifke-codereview_week01/nav.html",
+		"/home/niki/codefactory/css_niki_schlifke-codereview_week01/css/side.css",
+		"/home/niki/codefactory/css_niki_schlifke-codereview_week01/css/nav.css",
+		"/home/niki/codefactory/css_niki_schlifke-codereview_week01/css/main.css",
+		"/home/niki/codefactory/css_niki_schlifke-codereview_week01/css/top.css",
+		"/home/niki/codefactory/css_niki_schlifke-codereview_week01/newsfeed.html",
+		"/home/niki/codefactory/css_niki_schlifke-codereview_week01/html/settings.html",
+		"/home/niki/codefactory/css_niki_schlifke-codereview_week01/html/contacts.html",
+		"/home/niki/codefactory/css_niki_schlifke-codereview_week01/html/shortcuts.html",
+		"/home/niki/codefactory/css_niki_schlifke-codereview_week01/shortcuts.html",
+		"/home/niki/codefactory/css_niki_schlifke-codereview_week01/html/index.html",
+		"/home/niki/codefactory/css_niki_schlifke-codereview_week01/.gitignore",
+		"/home/niki/codefactory/codefactory.wien_week_01/day05/demoreview/css/nav.css",
+		"/home/niki/codefactory/codefactory.wien_week_01/day05/demoreview/css/main.css",
+		"/home/niki/codefactory/codefactory.wien_week_01/day05/demoreview/contact.html",
+		"/home/niki/codefactory/codefactory.wien_week_01/day05/demoreview/about.html",
+		"/home/niki/codefactory/codefactory.wien_week_01/day05/demoreview/index.html",
+		"/home/niki/codefactory/codefactory.wien_week_01/day04/exercises/newspaper.css",
+		"/home/niki/codefactory/codefactory.wien_week_01/day04/exercises/hide_and_seek.css",
+		"/home/niki/codefactory/codefactory.wien_week_01/day04/exercises/newspaper.html",
+		"/home/niki/codefactory/codefactory.wien_week_01/day04/exercises/badcss.css",
+		"/home/niki/codefactory/codefactory.wien_week_01/day04/exercises/selector_race.css",
+		"/home/niki/codefactory/codefactory.wien_week_01/day04/exercises/newspaper_advanced.css",
+		"/home/niki/codefactory/codefactory.wien_week_01/day04/exercises/newspaper_advanced.html",
+		"/home/niki/codefactory/codefactory.wien_week_01/day04/exercises/selector_race.html",
+		"/home/niki/codefactory/codefactory.wien_week_01/day04/exercises/newspaper_advanched.hml",
+		"/home/niki/codefactory/codefactory.wien_week_01/day04/csslearn/cascading_inheritance_specify.html",
+		"/home/niki/.config/sublime-text-3/Packages/CSS Extended Completions/css_style_completions.sublime-settings",
+		"/home/niki/.config/sublime-text-3/Packages/User/css_style_completions.sublime-settings",
+		"/home/niki/codefactory/codefactory.wien_week_01/day04/csslearn/cascading_inheritance_specify.css",
+		"/home/niki/codefactory/codefactory.wien_week_01/day04/csslearn/naming_convention.css",
+		"/home/niki/codefactory/codefactory.wien_week_01/day04/csslearn/naming_convention.html",
+		"/home/niki/codefactory/codefactory.wien_week_01/day04/exercises/hide_and_seek.html",
+		"/home/niki/.config/sublime-text-3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/home/niki/codefactory/codefactory.wien_week_01/day04/exercises/hide_and_seek2.html",
+		"/home/niki/codefactory/codefactory.wien_week_01/day04/cascading_inheritance_specify.html",
+		"/home/niki/codefactory/codefactory.wien_week_01/day04/cascading_inheritance_specify.css",
+		"/home/niki/codefactory/codefactory.wien_week_01/day03/gamechallange02/intro.html",
+		"/home/niki/codefactory/codefactory.wien_week_01/day03/htmllearn/images.html",
+		"/home/niki/codefactory/codefactory.wien_week_01/day03/htmllearn/lists.html",
+		"/home/niki/codefactory/codefactory.wien_week_01/day03/htmllearn/tables.html",
+		"/home/niki/codefactory/codefactory.wien_week_01/day03/htmllearn/learn.html",
+		"/home/niki/codefactory/codefactory.wien_week_01/day03/exercises/imageseries.html",
+		"/home/niki/codefactory/codefactory.wien_week_01/day03/exercises/table_of_images.html",
+		"/home/niki/codefactory/codefactory.wien_week_01/day03/htmllearn/forms.html",
+		"/home/niki/codefactory/codefactory.wien_week_01/day03/htmllearn/iframe_media_comments.html",
+		"/home/niki/codefactory/codefactory.wien_week_01/day03/htmllearn/contactform.html",
+		"/home/niki/codefactory/codefactory.wien_week_01/day03/exercises/audio_video_table.html",
+		"/home/niki/codefactory/codefactory.wien_week_01/day03/exercises/activities.html",
+		"/home/niki/codefactory/codefactory.wien_week_01/day03/gamechallange02/game.html",
+		"/home/niki/codefactory/codefactory.wien_week_01/day03/gamechallange02/player.html",
+		"/home/niki/codefactory/codefactory.wien_week_01/day03/gamechallange02/win.html",
+		"/home/niki/codefactory/codefactory.wien_week_01/day03/htmllearn/forms",
+		"/home/niki/codefactory/codefactory.wien_week_01/day02/website/template.html",
+		"/home/niki/codefactory/codefactory.wien_week_01/day02/gamechallange/page3.html",
+		"/home/niki/codefactory/codefactory.wien_week_01/day02/gamechallange/template.html",
+		"/home/niki/codefactory/codefactory.wien_week_01/day02/practice.html",
+		"/home/niki/codefactory/codefactory.wien_week_01/day02/gamechallange/start.html",
+		"/home/niki/codefactory/codefactory.wien_week_01/day02/gamechallange/page1.html",
+		"/home/niki/codefactory/codefactory.wien_week_01/day02/gamechallange/page11.html",
+		"/home/niki/codefactory/codefactory.wien_week_01/day02/gamechallange/page32.html",
+		"/home/niki/codefactory/codefactory.wien_week_01/day02/gamechallange/page12.html",
+		"/home/niki/codefactory/codefactory.wien_week_01/day02/gamechallange/page2.html",
+		"/home/niki/codefactory/codefactory.wien_week_01/day02/gamechallange/page13.html",
+		"/home/niki/codefactory/codefactory.wien_week_01/day02/gamechallange/page1211.html",
+		"/home/niki/codefactory/codefactory.wien_week_01/day02/gamechallange/page123.html",
+		"/home/niki/codefactory/codefactory.wien_week_01/day02/gamechallange/page122.html",
+		"/home/niki/codefactory/codefactory.wien_week_01/day02/gamechallange/page121.html",
+		"/home/niki/codefactory/codefactory.wien_week_01/day02/gamechallange/story.md",
+		"/home/niki/codefactory/codefactory.wien_week_01/day02/untitled",
+		"/home/niki/codefactory/codefactory.wien_week_01/day02/htmllearn/links_and_meta_tags.html",
+		"/home/niki/codefactory/codefactory.wien_week_01/day02/website/page5.html",
+		"/home/niki/codefactory/codefactory.wien_week_01/day02/website/page4.html",
+		"/home/niki/codefactory/codefactory.wien_week_01/day02/website/page3.html",
+		"/home/niki/codefactory/codefactory.wien_week_01/day02/website/page2.html",
+		"/home/niki/codefactory/codefactory.wien_week_01/day02/excercise/first.html",
+		"/home/niki/codefactory/codefactory.wien_week_01/day02/htmllearn/main.html",
+		"/home/niki/codefactory/codefactory.wien_week_01/day02/htmllearn/article.html",
+		"/home/niki/codefactory/codefactory.wien_week_01/day02/htmllearn/aside.html",
+		"/home/niki/codefactory/codefactory.wien_week_01/day01/htmllearn/firstpage/exercise02.html",
+		"/home/niki/codefactory/codefactory.wien_week_01/day01/htmllearn/firstpage/exercise01.html",
+		"/home/niki/codefactory/codefactory.wien_week_01/day02/excercise/Neinsager.html"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\"",
+			"'",
+			">\n",
+			"minutes",
+			"a",
+			"grade_english",
+			"grade_physics",
+			"grade_math",
+			"math",
+			"grade_math",
+			"English",
+			"english",
+			"grade_english",
+			"physics",
+			"grade_physics",
+			"physics",
+			"width",
+			"description",
+			"> <",
+			"</dl>",
+			"</dd>",
+			"<dd>",
+			"</dt>",
+			"<dt>",
+			"dt",
+			"<dl>",
+			"dt",
+			"\n    ",
+			"span",
+			">                    <",
+			"                    <",
+			">                    <",
+			"''",
+			"document.write",
+			" + \",\"",
+			"\"",
+			"><",
+			"> <",
+			"span",
+			"a",
+			"span",
+			"text-align",
+			"<hr>",
+			"<p>",
+			"v i",
+			" class=\"thumbnail\"",
+			"span>",
+			"span",
+			"\"thumbnails\"",
+			"\"thumnails\"",
+			"><",
+			"bbbbbb",
+			"30",
+			"p",
+			"|",
+			"body",
+			"ml\">",
+			"index.html",
+			"<section>",
+			"section",
+			"participat",
+			"ves",
+			"strong",
+			"years",
+			"h3",
+			"f4f4f4",
+			"ul",
+			"\"",
+			"8&amp;",
+			" ",
+			"=",
+			" class=\"below",
+			"3.125",
+			"newsfeed",
+			"nav",
+			"#menu",
+			"newsfeed",
+			"><",
+			">",
+			"f=\"",
+			"=\"",
+			"content",
+			"About",
+			"html\">",
+			"\">",
+			"</a>",
+			"<a href",
+			"<li>",
+			"i>",
+			"\">",
+			"right",
+			"\">",
+			"p",
+			"div",
+			"article",
+			"right",
+			"left",
+			"display",
+			"span",
+			"b>",
+			"<br>",
+			"width",
+			"next to",
+			"<div>",
+			"v>",
+			"div",
+			"\n",
+			"</p>\n<p>",
+			"\n",
+			" \n",
+			"EX",
+			"heading",
+			"</tr>",
+			"<tr>",
+			"points",
+			")",
+			"),",
+			"(",
+			"h14",
+			"c14",
+			"l14",
+			"blue14",
+			"green14",
+			"red14",
+			"lightness",
+			"chroma",
+			"h14",
+			"b14"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/home/niki/codefactory/javascript_niki_schlifke-codereview_week02"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 207,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								188,
+								188
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "script/player_names.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 322,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								243,
+								243
+							]
+						],
+						"settings":
+						{
+							"auto_name": "player_names.js",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 38.0
+	},
+	"input":
+	{
+		"height": 55.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.CSS Extended Completions":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 210.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 813.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/codefactory/codefactory.wien_week_01/codefactory.wien_week_01.sublime-project"
+			]
+		],
+		"width": 618.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 410.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
