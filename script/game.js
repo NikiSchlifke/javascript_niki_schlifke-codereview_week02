@@ -61,7 +61,7 @@ function set_player_names() {
 function generate_moves_strength(is_turn) {
     // roll a dice with number of faces with face_count
     function roll(face_count) {
-        return Math.round(Math.random() * face_count + 1);
+        return Math.round(Math.random() * (face_count - 1) + 1);
     }
     if (is_turn) {
         var values = {
@@ -108,8 +108,9 @@ function output(player_id, type, message) {
     dom_player = document.getElementById(player_dom_id);
     console.log(player_dom_id);
     dom_player_messages = dom_player.getElementsByClassName('messages')[0];
+    dom_player_events = dom_player_messages.getElementsByClassName('events')[0];
     console.log(dom_player_messages);
-    dom_player_messages.innerHTML += ('<p class="' + type + '">' + player_name + message + "</p>");
+    dom_player_events.innerHTML += ('<p class="' + type + '">' + player_name + message + "</p>");
 }
 
 function turn_finish() {
@@ -140,7 +141,7 @@ function block(player_id, oppenent_id) {
     turn_start(player_id, oppenent_id);
     players[player_id].damage_done = 0;
     players[player_id].damage_taken = Math.abs(players[oppenent_id].moves.attack - players[player_id].moves.block);
-    output(player_id, "block", " blocks at " + players[player_id].moves.block.toFixed(0) + " points");
+    output(player_id, "block", " blocks at " + players[player_id].moves.block + " points");
 
     turn_finish();
 }
@@ -149,10 +150,10 @@ function evade(player_id, oppenent_id) {
     turn_start(player_id, oppenent_id);
     players[player_id].damage_done = 0;
 
-    if (Math.random() * players[player_id].moves.block > 3) {
+    if (Math.random() * players[player_id].moves.block <= 3) {
         players[player_id].damage_taken = players[oppenent_id].moves.attack;
     }
-    output(player_id, "evade", " evades  with " + players[player_id].moves.evade * (100 / 6) + "% chance")
+    output(player_id, "evade", " evades  with " + (players[player_id].moves.evade * (100 / 6)).toFixed(1) + "% chance")
 
     turn_finish();
 }

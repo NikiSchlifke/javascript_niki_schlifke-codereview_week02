@@ -18,12 +18,19 @@ main section {
   justify-content: space-between; }
 
 .messages {
-  flex-grow: 90; }
+  flex-grow: 90;
+  overflow-y: scroll; }
+
+.messages .events {
+  height: 100%;
+  width: 100%; }
 
 .stats {
+  min-height: 5vh;
   flex-grow: 5; }
 
 .input {
+  min-height: 5vh;
   display: flex;
   flex-direction: column;
   flex-grow: 5;

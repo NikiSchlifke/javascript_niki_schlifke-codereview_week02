@@ -18,12 +18,19 @@ main section {
   justify-content: space-between; }
 
 .messages {
-  flex-grow: 90; }
+  flex-grow: 90;
+  overflow-y: scroll; }
+
+.messages .events {
+  height: 100%;
+  width: 100%; }
 
 .stats {
+  min-height: 5vh;
   flex-grow: 5; }
 
 .input {
+  min-height: 5vh;
   display: flex;
   flex-direction: column;
   flex-grow: 5;
@@ -33,5 +40,28 @@ main section {
   display: flex;
   flex-direction: row;
   justify-content: space-around; }
+
+html,
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+button {
+  font-weight: bold; }
+
+.messages {
+  color: white;
+  background-color: black; }
+
+.messages p {
+  margin: 0.8em 3em 0em; }
+
+.attack {
+  color: red; }
+
+.block {
+  color: yellow; }
+
+.evade {
+  color: green; }
 
 /*# sourceMappingURL=main.css.map */

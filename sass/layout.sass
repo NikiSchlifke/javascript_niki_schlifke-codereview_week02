@@ -28,11 +28,19 @@ main section
 
 .messages
 	flex-grow: $message_height
+	overflow-y: scroll
+
+.messages .events
+	height: 100%
+	width: 100%
+
 
 .stats
+	min-height: $stats_height + vh
 	flex-grow: $stats_height
 
 .input
+	min-height: $input_height + vh
 	display: flex
 	flex-direction: column
 	flex-grow: $input_height
@@ -42,4 +50,6 @@ main section
 	display: flex
 	flex-direction: row
 	justify-content: space-around
+
+
 	
