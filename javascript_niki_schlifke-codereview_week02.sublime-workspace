@@ -4,19 +4,91 @@
 		"selected_items":
 		[
 			[
+				"pl",
+				"player_id"
+			],
+			[
+				"p",
+				"player1"
+			],
+			[
+				"pla",
+				"player"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"va",
+				"values"
+			],
+			[
+				"dam",
+				"damage_taken"
+			],
+			[
+				"play",
+				"player1"
+			],
+			[
+				"PL",
+				"PLAYER1"
+			],
+			[
+				"da",
+				"damage_taken"
+			],
+			[
+				"get",
+				"getElementsByClassName"
+			],
+			[
+				"turn",
+				"turn_finish"
+			],
+			[
+				"tur",
+				"turn_finish"
+			],
+			[
+				"tu",
+				"turn_finish"
+			],
+			[
+				"g",
+				"game_loop"
+			],
+			[
+				"o",
+				"oppenent_id"
+			],
+			[
+				"a",
+				"attack"
+			],
+			[
+				"ge",
+				"generate_moves_strength"
+			],
+			[
+				"game",
+				"game_loop"
+			],
+			[
+				"name",
+				"name_data"
+			],
+			[
+				"face",
+				"face_count"
+			],
+			[
 				"nam",
 				"name_data"
 			],
 			[
 				"player_na",
-				"player_name_data"
-			],
-			[
-				"va",
-				"validate"
-			],
-			[
-				"pla",
 				"player_name_data"
 			],
 			[
@@ -36,16 +108,8 @@
 				"backgroundString"
 			],
 			[
-				"ge",
-				"getRandom255"
-			],
-			[
 				"c",
 				"current_date"
-			],
-			[
-				"da",
-				"date"
 			],
 			[
 				"mi",
@@ -72,20 +136,8 @@
 				"innerHTML"
 			],
 			[
-				"get",
-				"getElementById"
-			],
-			[
 				"gra",
 				"grade_math"
-			],
-			[
-				"g",
-				"grade_average"
-			],
-			[
-				"a",
-				"appendChild"
 			],
 			[
 				"s",
@@ -118,10 +170,6 @@
 			[
 				"de",
 				"degreesToRadians"
-			],
-			[
-				"fun",
-				"function"
 			],
 			[
 				"i",
@@ -312,10 +360,6 @@
 				"margin-left"
 			],
 			[
-				"p",
-				"position"
-			],
-			[
 				"bo",
 				"bold"
 			],
@@ -362,10 +406,6 @@
 			[
 				"fo",
 				"font-stretch"
-			],
-			[
-				"o",
-				"overline"
 			],
 			[
 				"te",
@@ -471,27 +511,76 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 207,
+				"buffer_size": 2565,
 				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/niki/codefactory/codefactory.wien_week_02/day09/exercises/dynamicbackground.html",
+			"settings":
+			{
+				"buffer_size": 743,
 				"line_ending": "Unix"
 			}
 		},
 		{
 			"contents": "",
+			"file": "script/init.js",
+			"file_size": 772,
+			"file_write_time": 131324133819860617,
 			"settings":
 			{
 				"buffer_size": 0,
+				"line_ending": "Unix",
+				"name": "init.js"
+			}
+		},
+		{
+			"file": "script/game.js",
+			"settings":
+			{
+				"buffer_size": 3860,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "script/player_names.js",
+			"file": "sass/layout.sass",
 			"settings":
 			{
-				"buffer_size": 322,
+				"buffer_size": 89,
 				"encoding": "UTF-8",
 				"line_ending": "Unix",
-				"name": "player_names.js"
+				"name": "layout.sass"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nSASS Snippets\n-------------\n\n  Sass Snippets for Sublime\n  =========================\n  \n  Sass snippets for Sublime text 2/3.\n  \n  \n  Content\n  =======\n  \n  - Directives snippets\n  - Flags snippets\n  - Functions snippets\n  - CSS Extensions snippets\n  \n  \n  Authors\n  =======\n  \n  Claudio Sanches\n      Twitter : @claudiosmweb\n      Github  : https://github.com/claudiosmweb\n  \n  Vitor Britto\n      Twitter : @vitorbritto\n      Github  : https://github.com/vitorbritto\n  \n  \n  Support\n  =======\n  \n  Please direct any feedback to <sublimebrasil@vitorbritto.com.br> or through github at https://github.com/sublimebrasil/sublime-snippets-sass.\n  \n  Thank you for your support.\n",
+			"settings":
+			{
+				"buffer_size": 725,
+				"line_ending": "Unix",
+				"name": "Package Control Messages",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"file": "style/layout.css",
+			"settings":
+			{
+				"buffer_size": 104,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/main.sass",
+			"settings":
+			{
+				"buffer_size": 15,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -502,7 +591,7 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 532.0,
+		"height": 596.0,
 		"last_filter": "insta",
 		"selected_items":
 		[
@@ -657,10 +746,18 @@
 	},
 	"expanded_folders":
 	[
-		"/home/niki/codefactory/javascript_niki_schlifke-codereview_week02"
+		"/home/niki/codefactory/javascript_niki_schlifke-codereview_week02",
+		"/home/niki/codefactory/javascript_niki_schlifke-codereview_week02/script",
+		"/home/niki/codefactory/javascript_niki_schlifke-codereview_week02/style",
+		"/home/niki/codefactory/codefactory.wien_week_02",
+		"/home/niki/codefactory/codefactory.wien_week_02/day09",
+		"/home/niki/codefactory/codefactory.wien_week_02/day09/exercises"
 	],
 	"file_history":
 	[
+		"/home/niki/codefactory/javascript_niki_schlifke-codereview_week02/style/main.css",
+		"/home/niki/codefactory/javascript_niki_schlifke-codereview_week02/script/dice.js",
+		"/home/niki/codefactory/javascript_niki_schlifke-codereview_week02/script/player_names.js",
 		"/home/niki/codefactory/codefactory.wien_week_02/day09/exercises/error.html",
 		"/home/niki/codefactory/codefactory.wien_week_02/day09/exercises/captalize.js",
 		"/home/niki/codefactory/codefactory.wien_week_02/day07/exercises/bookmarks/index.html",
@@ -785,14 +882,11 @@
 		"/home/niki/codefactory/codefactory.wien_week_01/day02/excercise/first.html",
 		"/home/niki/codefactory/codefactory.wien_week_01/day02/htmllearn/main.html",
 		"/home/niki/codefactory/codefactory.wien_week_01/day02/htmllearn/article.html",
-		"/home/niki/codefactory/codefactory.wien_week_01/day02/htmllearn/aside.html",
-		"/home/niki/codefactory/codefactory.wien_week_01/day01/htmllearn/firstpage/exercise02.html",
-		"/home/niki/codefactory/codefactory.wien_week_01/day01/htmllearn/firstpage/exercise01.html",
-		"/home/niki/codefactory/codefactory.wien_week_01/day02/excercise/Neinsager.html"
+		"/home/niki/codefactory/codefactory.wien_week_01/day02/htmllearn/aside.html"
 	],
 	"find":
 	{
-		"height": 38.0
+		"height": 52.0
 	},
 	"find_in_files":
 	{
@@ -806,6 +900,29 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"damage_done",
+			".block",
+			".attack",
+			".block",
+			"ducument",
+			"player1.",
+			"player1",
+			"game_turn",
+			"r_id",
+			", 0",
+			", 1",
+			", opponent_id",
+			"player_id",
+			"argument",
+			"r1",
+			"input:",
+			"(2)",
+			"2",
+			"(1)",
+			"1",
+			"--",
+			"attack",
+			"js",
 			"\"",
 			"'",
 			">\n",
@@ -910,30 +1027,7 @@
 			"width",
 			"next to",
 			"<div>",
-			"v>",
-			"div",
-			"\n",
-			"</p>\n<p>",
-			"\n",
-			" \n",
-			"EX",
-			"heading",
-			"</tr>",
-			"<tr>",
-			"points",
-			")",
-			"),",
-			"(",
-			"h14",
-			"c14",
-			"l14",
-			"blue14",
-			"green14",
-			"red14",
-			"lightness",
-			"chroma",
-			"h14",
-			"b14"
+			"v>"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -952,6 +1046,9 @@
 	[
 		{
 			"path": "/home/niki/codefactory/javascript_niki_schlifke-codereview_week02"
+		},
+		{
+			"path": "/home/niki/codefactory/codefactory.wien_week_02"
 		}
 	],
 	"groups":
@@ -966,15 +1063,58 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 207,
+						"buffer_size": 2565,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								188,
-								188
+								166,
+								166
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/niki/codefactory/codefactory.wien_week_02/day09/exercises/dynamicbackground.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 743,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								204,
+								204
 							]
 						],
 						"settings":
@@ -990,17 +1130,26 @@
 									"selector": "text.html"
 								}
 							],
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 7,
 					"type": "text"
-				},
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
 				{
-					"buffer": 1,
+					"buffer": 2,
+					"file": "script/init.js",
 					"semi_transient": false,
 					"settings":
 					{
@@ -1017,8 +1166,106 @@
 						],
 						"settings":
 						{
-							"auto_name": "",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"auto_name": "init.js",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "script/game.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3860,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2058,
+								2058
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2430.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "sass/layout.sass",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 89,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								71,
+								71
+							]
+						],
+						"settings":
+						{
+							"auto_name": "layout.sass",
+							"syntax": "Packages/Rails/Ruby Haml.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 725,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								725,
+								725
+							]
+						],
+						"settings":
+						{
+							"auto_indent": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_width": 2,
+							"word_wrap": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1028,26 +1275,36 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "script/player_names.js",
+					"buffer": 6,
+					"file": "style/layout.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 322,
+						"buffer_size": 104,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								243,
-								243
+								82,
+								82
 							]
 						],
 						"settings":
 						{
-							"auto_name": "player_names.js",
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1055,13 +1312,41 @@
 					},
 					"stack_index": 2,
 					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "sass/main.sass",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 15,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								15,
+								15
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
 				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 38.0
+		"height": 35.0
 	},
 	"input":
 	{
@@ -1076,11 +1361,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.43946105574,
 			1.0
 		],
 		"rows":
@@ -1110,7 +1402,7 @@
 	"project": "",
 	"replace":
 	{
-		"height": 72.0
+		"height": 66.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1144,7 +1436,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},

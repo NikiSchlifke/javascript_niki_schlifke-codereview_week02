@@ -1,0 +1,39 @@
+// layout.sass
+$message_height: 80
+$stats_action_ratio: 0.5
+$stats_height: (100 - $message_height) * $stats_action_ratio
+$input_height: (100 - $message_height) * (1/$stats_action_ratio)
+
+html,
+body
+	margin: 0
+	padding: 0
+
+main
+	display: flex
+	position: relative
+	flex-direction: row
+	justify-content: space-around
+	height: 100%
+
+	
+
+main section
+	display: flex
+	position: relative
+	flex-direction: column
+	justify-content: space-between
+	
+
+.messages
+	height: $message_height + 'vh'
+	width: auto
+
+.stats
+	height: $stats_height + 'vh'
+	width: auto
+
+.input
+	height: $input_height + 'vh'
+	width: auto
+

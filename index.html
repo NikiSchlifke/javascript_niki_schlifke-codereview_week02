@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>Game random numbers</title>
+    <link rel="stylesheet" type="text/css" href="style/main.css">
     <script type="text/javascript">
     // global variable containing the players
     </script>
@@ -13,43 +14,45 @@
     <!-- (section#player$>((div.stats>(span.name{PLAYER$}+span{ health: }+span.health{100}))+div.messages+div.input))*2 -->
     <!-- (section#player$>((div.stats>(span.name{PLAYER$}+span{ health: }+span.health{100}))+div.messages+div.input>(form.input_form>(input:button[onclick=attack(player$); name=player$_attack]+input:button[onclick=block(player$); name=player$_block]+input:button[onclick=evade(player$); name=player$_evade]))))*2 -->
     <!-- (section#player$>((div.stats>(span.name{PLAYER$}+span{ health: }+span.health{100}))+div.messages+div.input>(form.input_form>(button[onclick=attack($); name=player$_attack]{ATTACK}+button[onclick=block($); name=player$_block]{BLOCK}+button[onclick=evade($); name=player$_evade]{EVADE}))))*2 -->
-    <section id="player1">
-        <div class="stats">
-            <span class="name">PLAYER1</span>
-            <span> health: </span>
-            <span class="health">100</span>
-        </div>
-        <div class="messages"></div>
-        <div class="input">
-            <form action="" class="input_form" onsubmit="return false">
-                <button onclick="attack(0, 1);" name="player1_attack">ATTACK</button>
-                <button onclick="block(0, 1);" name="player1_block">BLOCK</button>
-                <button onclick="evade(0, 1);" name="player1_evade">EVADE</button>
-            </form>
-        </div>
-    </section>
-    <section id="player2">
-        <div class="stats">
-            <span class="name">PLAYER2</span>
-            <span> health: </span>
-            <span class="health">100</span>
-        </div>
-        <div class="messages"></div>
-        <div class="input">
-            <form action="" class="input_form" onsubmit="return false">
-                <button onclick="attack(1, 0);" name="player2_attack">ATTACK</button>
-                <button onclick="block(1, 0);" name="player2_block">BLOCK</button>
-                <button onclick="evade(1, 0);" name="player2_evade">EVADE</button>
-            </form>
-        </div>
-    </section>
-    <script type="text/javascript" src="script/game.js"></script>
-    <script type="text/javascript">
-    	players = [];
+    <main>
+        <section id="player1">
+            <div class="stats">
+                <span class="name">PLAYER1</span>
+                <span> health: </span>
+                <span class="health">100</span>
+            </div>
+            <div class="messages"><h3>fight!</h3></div>
+            <div class="input">
+                <form action="" class="input_form" onsubmit="return false">
+                    <button onclick="attack(0, 1);" name="player1_attack">ATTACK</button>
+                    <button onclick="block(0, 1);" name="player1_block">BLOCK</button>
+                    <button onclick="evade(0, 1);" name="player1_evade">EVADE</button>
+                </form>
+            </div>
+        </section>
+        <section id="player2">
+            <div class="stats">
+                <span class="name">PLAYER2</span>
+                <span> health: </span>
+                <span class="health">100</span>
+            </div>
+            <div class="messages"><h3>fight!</h3></div>
+            <div class="input">
+                <form action="" class="input_form" onsubmit="return false">
+                    <button onclick="attack(1, 0);" name="player2_attack">ATTACK</button>
+                    <button onclick="block(1, 0);" name="player2_block">BLOCK</button>
+                    <button onclick="evade(1, 0);" name="player2_evade">EVADE</button>
+                </form>
+            </div>
+        </section>
+        <script type="text/javascript" src="script/game.js"></script>
+        <script type="text/javascript">
+        players = [];
         init_game();
         set_player_names();
         toogle_player_disable(document.getElementById('player2'));
-    </script>
+        </script>
+    </main>
 </body>
 
 </html>
