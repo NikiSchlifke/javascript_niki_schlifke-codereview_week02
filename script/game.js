@@ -1,5 +1,6 @@
 // game.js
-
+var player1 = document.getElementById('player1');
+var player2 = document.getElementById('player2');
 
 is_turn = 0;
 // init.js
@@ -35,18 +36,16 @@ function createPlayer(name) {
     };
 }
 
-function next_turn()
-{
-	is_turn = Number(! is_turn);
+function next_turn() {
+    is_turn = Number(!is_turn);
 }
 
 
-function toogle_player_disable(player)
-{
-	var is_disabled = player.getElementsByTagName('button')[0].disabled;
-	player.getElementsByTagName('button')[0].disabled = !is_disabled;
-	player.getElementsByTagName('button')[1].disabled = !is_disabled;
-	player.getElementsByTagName('button')[2].disabled = !is_disabled;
+function toogle_player_disable(player) {
+    var is_disabled = player.getElementsByTagName('button')[0].disabled;
+    player.getElementsByTagName('button')[0].disabled = !is_disabled;
+    player.getElementsByTagName('button')[1].disabled = !is_disabled;
+    player.getElementsByTagName('button')[2].disabled = !is_disabled;
 }
 
 
@@ -76,9 +75,9 @@ function generate_moves_strength(is_turn) {
             "attack": 0,
             "block": 0,
             "evade": 0
-        }    
+        }
     }
-    console.log(values.attack+ ', ' + values.block + ', ' + values.evade)
+    console.log(values.attack + ', ' + values.block + ', ' + values.evade)
     return values;
 
 }
@@ -98,14 +97,23 @@ function turn_start(player_id, oppenent_id) {
 
     players[player_id].moves = generate_moves_strength(true);
     players[oppenent_id].moves = generate_moves_strength(false);
-	console.log(players);
+    console.log(players);
 
-    
+
+}
+
+function output(player_id, type, message) {
+    player_name = players[player_id].name;
+    player_dom_id = 'player' + (player_id + 1);
+    dom_player = document.getElementById(player_dom_id);
+    console.log(player_dom_id);
+    dom_player_messages = dom_player.getElementsByClassName('messages')[0];
+    console.log(dom_player_messages);
+    dom_player_messages.innerHTML += ('<p class="' + type + '">' + player_name + message + "</p>");
 }
 
 function turn_finish() {
-    var player1 = document.getElementById('player1');
-    var player2 = document.getElementById('player2');
+
 
     // console.log(player1.getElementsByClassName('health')[0].innerHTML);
     // console.log(player2.getElementsByClassName('health')[0].innerHTML);
@@ -124,6 +132,7 @@ function attack(player_id, oppenent_id) {
     players[player_id].damage_done = players[oppenent_id].moves.attack;
     players[oppenent_id].damage_taken = players[player_id].moves.attack;
     console.log(players[oppenent_id]);
+    output(player_id, "attack", " attacks with " + players[player_id].moves.attack + " damage")
     turn_finish();
 }
 
@@ -131,14 +140,19 @@ function block(player_id, oppenent_id) {
     turn_start(player_id, oppenent_id);
     players[player_id].damage_done = 0;
     players[player_id].damage_taken = Math.abs(players[oppenent_id].moves.attack - players[player_id].moves.block);
+    output(player_id, "block", " blocks at " + players[player_id].moves.block.toFixed(0) + " points");
+
     turn_finish();
 }
 
 function evade(player_id, oppenent_id) {
     turn_start(player_id, oppenent_id);
     players[player_id].damage_done = 0;
+
     if (Math.random() * players[player_id].moves.block > 3) {
         players[player_id].damage_taken = players[oppenent_id].moves.attack;
     }
+    output(player_id, "evade", " evades  with " + players[player_id].moves.evade * (100 / 6) + "% chance")
+
     turn_finish();
 }

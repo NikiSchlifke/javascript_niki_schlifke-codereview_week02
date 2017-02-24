@@ -1,8 +1,8 @@
 // layout.sass
-$message_height: 80
+$message_height: 90
 $stats_action_ratio: 0.5
 $stats_height: (100 - $message_height) * $stats_action_ratio
-$input_height: (100 - $message_height) * (1/$stats_action_ratio)
+$input_height: (100 - $message_height) * (1-$stats_action_ratio)
 
 html,
 body
@@ -10,30 +10,36 @@ body
 	padding: 0
 
 main
+	height: 100vh
 	display: flex
 	position: relative
 	flex-direction: row
 	justify-content: space-around
-	height: 100%
 
 	
 
 main section
 	display: flex
+	flex-grow: 1
 	position: relative
 	flex-direction: column
 	justify-content: space-between
 	
 
 .messages
-	height: $message_height + 'vh'
-	width: auto
+	flex-grow: $message_height
 
 .stats
-	height: $stats_height + 'vh'
-	width: auto
+	flex-grow: $stats_height
 
 .input
-	height: $input_height + 'vh'
-	width: auto
+	display: flex
+	flex-direction: column
+	flex-grow: $input_height
+	justify-content: center
 
+.input form
+	display: flex
+	flex-direction: row
+	justify-content: space-around
+	
